@@ -1,0 +1,47 @@
+1.how to create database?
+create database morning;
+
+2.how to show databases?
+show databases;
+
+3.Is there any default database?
+yes, test is a default database.
+
+4.how to use a database?
+use morning;
+
+5.how to get all tables?
+show tables;
+
+6.how to create table?
+create table student (name varchar(30),roll int primary key,address varchar(50));
+
+7.how to get description of a table?
+desc student;
+
+8.how to get all data from table?
+select * from student;
+
+9.how to insert a data into table?
+insert into student values('deep singh',1,'gzb');
+
+10.how to update a value in table?
+update student set address='delhi' where roll=1;
+
+11.how to delete a data from database;
+delete from student where roll=1;
+
+12.how to drop a table?
+drop table student;
+
+13.how to get single row from table?
+select * from student where roll=1;
+
+14.check login in table?
+select * from student where name='deep singh' and roll=1;
+
+15.how to add column in existing table?
+alter table student add marks float(10);
+
+16.how to remove a column from a table?
+alter table student drop marks;
