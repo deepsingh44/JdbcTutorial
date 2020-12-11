@@ -1,8 +1,6 @@
 package com.deepsingh44.callablestatement;
-
 import java.sql.CallableStatement;
 import java.sql.Connection;
-
 import com.deepsingh44.prestatement.Dao;
 
 public class Insert {
@@ -17,3 +15,5 @@ public class Insert {
 		}
 	}
 }
+
+//batch update
